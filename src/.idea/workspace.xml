@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4c73648-bbe4-412c-9214-15ff0e3c9525" name="Default" comment="add chapter 06">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06/scripts/03.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06/scripts/04.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06/views/03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06/views/04.html" />
+    <list default="true" id="a4c73648-bbe4-412c-9214-15ff0e3c9525" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06/scripts/04.js" afterPath="$PROJECT_DIR$/06/scripts/04.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06/scripts/04.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -85,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="04.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06/views/04.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -374,7 +371,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499649003592</updated>
       <workItem from="1499649005841" duration="1853000" />
-      <workItem from="1499690157671" duration="3811000" />
+      <workItem from="1499690157671" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="add chapter 06">
       <created>1499690484698</created>
@@ -383,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499690484698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add chapter 06-04">
+      <created>1499697471132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499697471132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5664000" />
+    <option name="totallyTimeSpent" value="6648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -420,7 +424,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add chapter 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="add chapter 06" />
+    <MESSAGE value="add chapter 06-04" />
+    <option name="LAST_COMMIT_MESSAGE" value="add chapter 06-04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -525,21 +530,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06/views/04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06/scripts/04.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/views/04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
