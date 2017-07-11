@@ -15,3 +15,12 @@ function classOf(o) {
 }
 
 console.log(classOf([]));
+console.log(classOf(""));
+console.log(classOf({}));
+console.log(classOf(false));
+console.log(classOf(1));
+console.log(classOf(/./));
+console.log(classOf(new Date()));
+console.log(Window);
+function newf() { }
+console.log(classOf(newf));
