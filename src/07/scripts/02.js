@@ -75,5 +75,16 @@ console.log(stack.pop());
 console.log(stack);
 
 
+/**
+ *unshift() 和 shift();
+ */
 
+arr=[];
+console.log(arr.unshift(1));
+console.log(arr.unshift(22));
+console.log(arr.shift());
+console.log(arr.unshift(3,[4,5]));
+console.log(arr.shift());;
+console.log(arr.shift());
+console.log(arr.shift());
 
