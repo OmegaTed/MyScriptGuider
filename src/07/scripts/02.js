@@ -88,3 +88,4 @@ console.log(arr.shift());;
 console.log(arr.shift());
 console.log(arr.shift());
 
+arr=[11,12];

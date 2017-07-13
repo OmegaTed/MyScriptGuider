@@ -64,3 +64,37 @@ var max = arr.reduce(function (x, y) {
     return x > y ? x : y;
 });
 console.log(max);
+console.log("----------");
+
+arr = [2, 3, 4];
+result = arr.reduceRight(function (accumulater, value) {
+    return Math.pow(accumulater, value);
+});
+
+console.log(result);
+
+
+function extend(o, p) {
+    for (var cp in p) {
+        o[cp] = p[cp];
+    }
+    return o;
+}
+
+function union(o, p) {
+    return extend(extend({}, o), p);
+}
+
+console.log("----------");
+arr = [{x: 1}, {y: 2}, {z: 3}, {k: 4}];
+
+var nResult = arr.reduceRight(union);
+console.log(nResult);
+
+
+console.log("----------");
+arr = [{x: 1, a: 1}, {y: 2, a: 2}, {z: 3, a: 3}, {k: 4, a: 4}];
+nResult=arr.reduce(union);
+console.log(nResult);
+nResult=arr.reduceRight(union);
+console.log(nResult);
