@@ -36,4 +36,3 @@ Array.isArray = Array.isArray || function (o) {
         return typeof o === "object"
             && Object.prototype.toString.call(o).slice(8, -1).toLowerCase() === "array";
     };
-

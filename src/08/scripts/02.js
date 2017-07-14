@@ -69,3 +69,4 @@ function factorial(n) {
         return NaN;
 }
 console.log(factorial(2) == 2);
+
